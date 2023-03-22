@@ -32,19 +32,19 @@ const Nav = () => {
           <h1 className="text-gray-300 text-[.7rem] font-bold">
             Market Cap:
             <span className="text-sky-400 ml-[.4rem]">
-              ${total_market_cap.toFixed(2).toLocaleString()}
+              ${total_market_cap?.toFixed(2).toLocaleString()}
             </span>
           </h1>
           <h1 className="text-gray-300 text-[.7rem] font-bold">
             Volume:
             <span className="text-sky-400 ml-[.4rem]">
-              ${total_volume.toFixed(2).toLocaleString()}
+              ${total_volume?.toFixed(2).toLocaleString()}
             </span>
           </h1>
           <h1 className="text-gray-300 text-[.7rem] font-bold">
             Dominance:
             <span className="text-sky-400 ml-[.4rem]">
-              BTC: ${btc.toFixed(1)}% ETH: {eth.toFixed(1)}%
+              BTC: ${btc?.toFixed(1)}% ETH: {eth?.toFixed(1)}%
             </span>
           </h1>
         </div>

@@ -67,7 +67,7 @@ const CoinInfo = ({ infoData }) => {
                   priceChange > 0 ? "text-green-500" : "text-red-800"
                 } ml-[1rem] font-semibold`}
               >
-                {priceChange.toFixed(1)}%
+                {priceChange?.toFixed(1)}%
               </span>
             </h1>
           </div>

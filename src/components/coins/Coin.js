@@ -17,7 +17,7 @@ const Coin = ({ item }) => {
         <div>
           <h1 className="font-bold text-xl text-center">{name}</h1>
           <h2 className="font-mono text-lg text-gray-800 text-center">
-            {price_btc.toFixed(15)}
+            {price_btc?.toFixed(15)}
             <strong>BTC</strong>
           </h2>
           <h2 className="font-mono text-lg text-gray-800 text-center">

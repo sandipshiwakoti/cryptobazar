@@ -70,11 +70,11 @@ const CoinsTable = () => {
       <p className="max-w-[60rem] mb-[1rem]">
         The global cryptocurrency market cap today is{" "}
         <strong>{formatCurrency(total_market_cap)}</strong>, a{" "}
-        <strong>{market_cap_change.toFixed(1)}%</strong> change in the last 24
+        <strong>{market_cap_change?.toFixed(1)}%</strong> change in the last 24
         hours. Total cryptocurrency trading volume in the last day is at{" "}
         <strong>{formatCurrency(total_volume)}</strong>. Bitcoin dominance is at{" "}
-        <strong>{btc.toFixed(1)}%</strong> and Ethereum dominance is at{" "}
-        <strong>{eth.toFixed(1)}%</strong>. Cryptobazar is now tracking{" "}
+        <strong>{btc?.toFixed(1)}%</strong> and Ethereum dominance is at{" "}
+        <strong>{eth?.toFixed(1)}%</strong>. Cryptobazar is now tracking{" "}
         <strong>{active_cryptocurrencies}</strong> cryptocurrencies.
       </p>
       <MaterialTable
